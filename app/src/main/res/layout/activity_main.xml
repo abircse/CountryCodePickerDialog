@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countryCodeHolder"
+        android:layout_width="100dp"
+        app:ccp_countryPreference="us,in"
+        app:ccp_showFullName="false"
+        app:ccp_showNameCode="false"
+        app:ccp_showPhoneCode="true"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
